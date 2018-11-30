@@ -1,0 +1,661 @@
+html {
+box-sizing: border-box;
+}
+.content-box-component {
+box-sizing: border-box;
+}
+
+.for-shadow {
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*хедер*/
+
+.main-navigation {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.site-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-navigation li  {
+  margin: 0;
+  color: #000000;
+  padding: 15px 75px;
+  }
+
+.site-navigation li:nth-child(2) {
+  padding-right: 315px;
+  }
+
+.site-navigation a  {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  }
+
+.main-header-logo {
+    position: absolute;
+    width: 138px;
+    height: 70px;
+    top: 0;
+    left: 531px;
+    z-index: 3;
+  }
+
+/*Index*/
+
+.sedona-greeting {
+  margin: 0;
+  padding: 0;
+  height: 562px;
+  background-image: url("../img/mountains.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 53px;
+  padding-top: 77px;
+}
+
+.mask {
+  width: 1200px;
+  height: 57px;
+  background-image: url("../img/mask.png");
+  repeat: no-repeat;
+  background-position: 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+h1 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight:
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.sedona-description p:first-of-type {
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 47px;
+}
+
+.reason-1 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.real-town {
+  width: 400px;
+}
+
+.first-reasons {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-top: 50px;
+  background-color: #81b3d2;
+}
+
+.first-reasons h2 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*колонки*/
+
+.reasons {
+  list-style: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.reasons h3 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.reason-1-columns {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.columns {
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  padding-top: 154px;
+}
+
+.motel {
+  background-image: url("../img/icon-1.svg");
+  background-position: 165px 62px;
+  background-repeat: no-repeat;
+}
+
+.food {
+  background-image: url("../img/icon-3.svg");
+  background-position: 165px 62px;
+  background-repeat: no-repeat;
+}
+
+.souvenirs {
+  background-image: url("../img/icon-2.svg");
+  background-position: 165px 62px;
+  background-repeat: no-repeat;
+}
+
+.reason-2 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 256px;
+}
+
+.devil-bridge {
+  width: 400px;
+}
+
+.next-reasons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding-top: 50px;
+}
+
+.next-reasons li{
+  width: 400px;
+  vertical-align: middle;
+}
+
+.next-reasons {
+  background-color: #eeeeee;
+}
+
+/*Кнопка и форма*/
+
+.search-button {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  padding-top: 56px;
+}
+
+.search-button h2 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.search-button p {
+  padding: 0;
+  margin: 30px 0 50px 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.search, .find {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+
+  border: none;
+}
+
+.search {
+  width: 567px;
+  padding: 29px 0;
+}
+
+.search-button button {
+  background-color: #766357;
+}
+
+.search-button button:hover {
+  background-color: #604e43;
+}
+
+.search-button button:focus {
+  color: #695950;
+  background-color: #503e33;
+}
+
+.find {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.find:hover {
+  background-color: #669ec0;
+}
+
+.find:focus {
+  color: #7eb0cd;
+  background-color: #5496bd;
+}
+
+.map {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 593px;
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+}
+
+.form-1 {
+  width: 567px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.form-1 input[type="text"],
+.form-1 input[type="number"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.form-1 input[type="text"]:hover,
+.form-1 input[type="number"]:hover {
+  background-color: #ebebeb;
+}
+
+.form-1 input[type="text"]:focus,
+.form-1 input[type="number"]:focus {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+
+.form-1 input[type="number"] {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* FOOTER*/
+
+.main-footer {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  align-items: center;
+}
+
+ .site a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.site {
+  width: 400px;
+}
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 124px;
+  padding-right: 117px;
+  list-style: none;
+}
+
+.social-button {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  margin-right: 7px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.social-button:hover {
+  background-color: #669ec0;
+}
+
+.social-button:focus {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+.website {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+}
+
+.website span {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #111111;
+}
+
+.website a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/*Вторая страница*/
+
+/*Форма поиска*/
+
+.search-hotels ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.search-hotels {
+  background-color:#6f6765;
+  background-image: url("../img/background.jpg");
+
+  color:#ffffff;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.search-hotels legend {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.search-hotels input[type="checkbox"] {
+background-color: transparent;
+}
+
+.show {
+font-family: "PT Sans", Arial, sans-serif;
+font-size: 16px;
+line-height: 21px;
+font-weight: bold;
+
+text-align: center;
+color: #ffffff;
+vertical-align: middle;
+text-transform: uppercase;
+background-color: transparent;
+}
+
+.container-form {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-left: 73px;
+  padding-right: 73px;
+  flex-direction: row;
+}
+
+.infrastructure {
+  margin: 0;
+  padding: 0;
+  width: 241px;
+  text-align: left;
+}
+
+.living {
+  margin: 0;
+  padding: 0;
+  width: 288px;
+  text-align: left;
+}
+
+.day-price{
+  margin: 0;
+  padding: 0;
+  width: 328px;
+  margin-left: auto;
+  text-align: left;
+}
+
+/*Результаты поиска -Заголовок*/
+
+.results h3 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.hotels-title span {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  display: inline-block;
+}
+
+.hotels-sorting a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cacaca;
+  border-bottom: 1px dotted #81b3d2;
+  display: flex;
+}
+
+.hotels-sorting a:focus {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.hotels-title {
+  margin: 0 auto;
+  display: flex;
+  height: 87px;
+  padding: 0 73px;
+}
+
+.found {
+  padding: 0;
+  margin: 0;
+  width: 241px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.found h3 {
+  width: 115px;
+}
+
+.found span {
+  width: 80px;
+}
+
+.hotels-sorting {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 288px;
+  padding-left: 40px;
+  padding-right: 13px;
+  justify-content: space-between;
+}
+
+.up-down {
+  margin: 0;
+  padding: 0;
+  width: 241px;
+  margin-left: auto;
+}
+
+/*Результаты поиска - Отели*/
+
+.three-hotels {
+  list-style: none;
+  margin: 0;
+  padding: 0 73px;
+  display: flex;
+  flex-direction: column;
+}
+
+.three-hotels li {
+  height: 152px;
+}
+
+.three-hotels span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.rating {
+  width: 110px;
+  height: 26px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  vertical-align: middle;
+  color: #666666;
+  background-color: #f2f2f2;
+}
+
+.three-hotels a {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.three-hotels a:first-of-type {
+  background-color: #81b3d2;
+}
+
+.three-hotels a:last-of-type {
+  background-color: #766357;
+}
+
+.hotel {
+  display: flex;
+}
+
+.container-1 {
+  margin: 0;
+  padding: 0;
+  width: 528px;
+}
+
+.container-2 {
+  width: 241px;
+  margin-left: auto;
+}
